@@ -16,7 +16,7 @@ It presents **images and videos** as stimuli, followed by randomized **multiple-
 
 ## Setup Instructions
 
-### 1️ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/niksjac/jspsych-survey-project.git
 cd jspsych-survey-project
@@ -28,11 +28,3 @@ If you have Python installed, run:
 python -m http.server 8000
 ```
 Then, open **`http://localhost:8000`** in your browser.
-
-
-### Running the Experiment
-- The survey will start automatically when loaded in the browser.
-- **Data is displayed at the end** (`jsPsych.data.displayData()`).
-
-## Dependencies
-- **jsPsych 6.3.1** (included via CDN)
